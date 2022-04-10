@@ -1,0 +1,11 @@
+demo_lists=["a", "b", "c"]
+print(demo_lists)
+
+demo_tuples=("1","2","3")
+print(demo_tuples)
+
+for i in demo_lists:
+  print(i)
+for i in demo_tuples:
+  print(i)
+
