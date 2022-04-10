@@ -1,0 +1,8 @@
+var1 = 'String'
+var2 = {55,88,99,22,77}
+var3 = 78953.3678
+var4 = [69,'world',54,'$=']
+print(type(var1),':', var1)
+print(type(var2),':', var2)
+print(type(var3),':', var3)
+print(type(var4),':', var4)
