@@ -1,0 +1,33 @@
+def (3a):
+  x=int(input("Enter a number:"))
+  if x%2==0:
+    print('x is an even number')
+  else :
+    print('x is an odd number')
+  
+ 
+def (3b): 
+  number=int(input("Please enter the number for checking:"))
+  sum=0
+  b=number
+  while b>0:
+      digit=b%10
+      sum+=digit**3
+      b//=10
+  if number==sum:
+        print(number, "is an armstrong number")
+  else:
+    print(number, "is a not armstrong number")
+    
+While True:
+		print ('Please select from the below list')
+		print ('1. 3a /n2. 3b')
+		w= int(input('Your Choice?')
+		if w==1:
+			def(3a)
+		elif w==2:
+			def(3b)
+		else: 
+			print("Please enter a Valid Input")
+			
+  
