@@ -1,0 +1,9 @@
+y=input("Enter the string:")
+dicti={}
+print ('The number of characters in the string:', len(y))
+for i in y:
+  if i in dicti:
+    dicti[i]+=1
+  else :
+    dicti[i]=1
+print(dicti)
